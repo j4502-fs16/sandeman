@@ -1,6 +1,6 @@
 p {color: red;
 color: #666666;
-font-family:helvetica, arial, sans-serif;}
+font-family:Helvetica, Arial, sans-serif;}
 
 h1 {font-family: Georgia, "Times New Roman", serif;}
 
@@ -9,3 +9,7 @@ body {background-color:black;}
 #container{width: 95%;
 backrgound-color: #ffffff
 margin: 0 auto;}
+
+.caption {color:white;
+font-family: Georgia, "Times New Roman", serif;
+font-size:0.8em;}
