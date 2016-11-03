@@ -62,15 +62,51 @@ body{
 img {
   border-style: none;
 	width: 100%;
+	display: none;
 }
 
 
-@media (min-width: 800px){
+@media screen and (min-width: 1000px) {
+	 header {
+		 display: flex;
+		 flex-flow: row;
+		 justify-content: center;
+	 }
+
+	 #container {
+	 	max-width: 980px;
+	 }
+
+	 /*h2 {
+		 margin-left: auto;
+		 margin-right: auto;
+	 }*/
+
+	 .navigation {
+		 display: flex;
+		 flex-flow: column;
+		 justify-content: flex-end;
+
+	 }
+}
+
+@media screen and (min-width: 600px) {
+
+	img {
+		display: block;
+		margin: auto;
+	}
+
+}
+
+
+@media screen and (min-width: 800px) {
 	.navigation {
 		display:flex;
 		flex-flow: row;
-		justify-content: space-between;;
+		justify-content: space-between;
 	}
+
 
 	#main {
 		display: flex;
