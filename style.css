@@ -137,6 +137,27 @@ img {
 		 #container {
 		 	max-width: 980px;
 		 }
+		 .map-wrapper{
+			 overflow: hidden;
+			 padding-bottom: 56.25%;
+			 position: relative;
+			 height: 0;
+			 background-color: white;
+			 width: 90%
+		 }
+
+		 .map-wrapper iframe{
+			 left: 0;
+			 top: 0;
+			 position: absolute;
+			 height: 80%;
+			 width: 80%;
+		 }
+
+
+
+
+
 
 		 /*.navigation {
 			 display: flex;
